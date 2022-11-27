@@ -11,13 +11,15 @@ function determineWinner({player,enemy,timerId})
         document.querySelector('#result').style.display= 'flex'
         if (player.health===enemy.health){
    document.querySelector('#result').innerHTML ='Tie'
+   document.querySelector('#timer').innerHTML = "End"
 }
 if (player.health>enemy.health){
    document.querySelector('#result').innerHTML ='Player 1 Wins'
-   
+   document.querySelector('#timer').innerHTML = "End"
 }
 if (player.health<enemy.health){
    document.querySelector('#result').innerHTML ='Player 2 Wins'
+   document.querySelector('#timer').innerHTML = "End"
 }
     }
 let timer=30
@@ -33,12 +35,3 @@ determineWinner({player,enemy,timerId})
 }
 }
 
-var delayInMilliseconds = 28000;
-setTimeout(function() {
-    document.querySelector('#result').style.display= 'flex'
-	 document.querySelector('#result').innerHTML ='Loading Round 2'
-     var delayInMilliseconds1 = 10000;
-     setTimeout(function() {
-        window.open('https://ornate-moxie-130802.netlify.app/')
-     }, delayInMilliseconds1)
-  }, delayInMilliseconds)
