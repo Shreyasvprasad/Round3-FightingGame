@@ -37,7 +37,7 @@
    }
    #timer{
      background-color: black ;
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Syne Mono', monospace;
          height:50px ; 
          width:100px; 
          flex-shrink: 0;
@@ -69,9 +69,9 @@
    }
    #result{
          position: absolute;
-         font-family: 'Dancing Script', cursive;
-         color:#D0FF14;
-         font-size: 180%;
+         font-family: 'Syne Mono', monospace;
+         color:black;
+         font-size: 300%;
          display: none;
          align-items: center;
          justify-content: center;
