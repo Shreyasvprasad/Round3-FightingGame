@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-size: 23 ;
+   }
+   #scoreboard{
+   position: relative;
+    display:inline-block;
+   }
+   #ContainPlayerHealth{
+      position :absolute; 
+      display: flex; 
+      width: 100%;
+      align-items: center;
+      padding:20px;
+   }
+   #scoreboard1{
+   position: relative;
+         width: 100%;
+         display: flex;
+         justify-content: flex-end;
+         border-top: 3px solid white;
+          border-left: 3px solid white;
+          border-bottom: 3px solid white;
+   }
+   #scoreboard2{
+    background-color: red ;
+         height:30px ;
+         width: 100%;
+   }
+   #playerHealth{
+         position: absolute; 
+         background-color:	#FFBF00 ;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         width: 100%;
+   }
+   #timer{
+     background-color: black ;
+     font-family: 'Dancing Script', cursive;
+         height:50px ; 
+         width:100px; 
+         flex-shrink: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         border: 3px solid white;
+   }
+   #enemyHealth1{
+         position: relative;
+         width: 100%;
+         border-top: 3px solid white;
+          border-right: 3px solid white;
+          border-bottom: 3px solid white;
+   }
+   #enemyHealth2{
+         background-color: red ;
+         height:30px ;
+         width: 100%
+   }
+   #enemyHealth{
+         position: absolute; 
+         background-color:	#FFBF00;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+   }
+   #result{
+         position: absolute;
+         font-family: 'Dancing Script', cursive;
+         color:#D0FF14;
+         font-size: 180%;
+         display: none;
+         align-items: center;
+         justify-content: center;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+   }
