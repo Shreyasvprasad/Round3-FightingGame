@@ -57,7 +57,7 @@ offset: {
  takeHit:{
 		imageSrc:'Take Hit.png',
 		framesMax: 3	,
-		framesHold: 5
+		framesHold: 8
  },
  death:{
 		imageSrc:'Death.png',
@@ -128,7 +128,7 @@ health: 200
 	takeHit:{
 		   imageSrc:'KTake hit.png',
            framesMax: 4 	,
-		   framesHold:12
+		   framesHold:5
 	},
 	death:{
 		   imageSrc:'KDeath.png',
